@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oxblood: #641E32;
+  --color-oxblood-dark: #461423;
+  --color-oxblood-light: #7E263F;
+  --color-pearl: #FBF8F6;
+  --color-pearl-surface: #FFFFFF;
+  --color-dusty-rose: #B98C91;
+  --color-dusty-rose-light: #F4EBEB;
+  --color-stone-grey: #E8E1DE;
+  --color-stone-border: #D8CECA;
+  --color-muted-brass: #B59A62;
+  --color-muted-brass-light: #F7F3E9;
+  --color-charcoal: #1C1517;
+  --color-ink-muted: #66585B;
+  --color-ink-faint: #98898C;
+
+  --font-serif: "Fraunces", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-pearl);
+    color: var(--color-charcoal);
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom scrollbar & focus styling */
+:focus-visible {
+  outline: 2px solid var(--color-oxblood);
+  outline-offset: 2px;
+}
+
+/* Smooth motion handling */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

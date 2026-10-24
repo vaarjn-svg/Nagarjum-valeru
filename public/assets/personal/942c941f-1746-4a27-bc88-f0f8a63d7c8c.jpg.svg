@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%" style="background:#ffffff;">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="400" cy="400" r="380"/>
+    </clipPath>
+    <radialGradient id="warmBg" cx="60%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#eae3dd"/>
+      <stop offset="100%" stop-color="#b8aca5"/>
+    </radialGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2839"/>
+      <stop offset="100%" stop-color="#111622"/>
+    </linearGradient>
+    <linearGradient id="hairHighlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7a422b"/>
+      <stop offset="50%" stop-color="#2a1b15"/>
+      <stop offset="100%" stop-color="#110d0b"/>
+    </linearGradient>
+  </defs>
+  
+  <g clip-path="url(#circleClip)">
+    <!-- Background with warm architectural lighting and soft office plant blur -->
+    <rect width="800" height="800" fill="url(#warmBg)"/>
+    <circle cx="140" cy="480" r="160" fill="#75886d" opacity="0.45" filter="blur(20px)"/>
+    
+    <!-- Dark navy shirt shoulders -->
+    <path d="M 120 800 C 150 630, 280 580, 400 580 C 520 580, 650 630, 680 800 Z" fill="url(#shirtGrad)"/>
+    <!-- Collar & buttons -->
+    <path d="M 330 580 L 400 660 L 470 580 L 430 570 L 400 620 L 370 570 Z" fill="#182030"/>
+    <circle cx="400" cy="700" r="5" fill="#323b4e"/>
+    <circle cx="400" cy="760" r="5" fill="#323b4e"/>
+    
+    <!-- Neck -->
+    <path d="M 350 490 L 350 590 C 370 605, 430 605, 450 590 L 450 490 Z" fill="#c99577"/>
+    
+    <!-- Hair Volume (textured waves with auburn highlights) -->
+    <path d="M 230 360 C 210 200, 320 120, 420 110 C 530 100, 610 180, 610 320 C 610 420, 560 480, 530 500 C 530 430, 500 370, 460 360 Z" fill="url(#hairHighlight)"/>
+    <!-- Individual styled fringe highlight locks -->
+    <path d="M 330 150 Q 380 180 430 230 Q 390 260 350 200 Z" fill="#9e5635" opacity="0.85"/>
+    <path d="M 380 130 Q 450 170 480 250 Q 440 260 400 180 Z" fill="#b0643e" opacity="0.8"/>
+    
+    <!-- Face structure (angled slightly left, calm and thoughtful) -->
+    <path d="M 290 320 C 270 340, 260 380, 260 410 C 260 460, 310 540, 400 550 C 470 545, 510 480, 510 410 C 510 350, 480 290, 420 280 Z" fill="#d9a585"/>
+    
+    <!-- Beard & Stubble -->
+    <path d="M 270 420 C 265 470, 320 545, 400 550 C 450 545, 490 500, 490 440 C 460 460, 410 470, 380 460 C 340 450, 310 430, 270 420 Z" fill="#241a16"/>
+    <!-- Mustache -->
+    <path d="M 320 445 Q 360 440 400 455 Q 360 470 320 445 Z" fill="#1c1411"/>
+    
+    <!-- Eyes, Brows, Nose -->
+    <path d="M 305 325 Q 340 315 365 325" stroke="#1c1411" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M 405 325 Q 440 320 475 335" stroke="#1c1411" stroke-width="7" fill="none" stroke-linecap="round"/>
+    
+    <circle cx="340" cy="350" r="12" fill="#2b1a13"/>
+    <circle cx="343" cy="348" r="3" fill="#ffffff"/>
+    <circle cx="440" cy="355" r="12" fill="#2b1a13"/>
+    <circle cx="443" cy="353" r="3" fill="#ffffff"/>
+    
+    <path d="M 385 330 L 375 410 L 395 415" stroke="#ba8265" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 350 475 Q 380 485 410 475" stroke="#7e4136" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="400" cy="400" r="380" fill="none" stroke="#641E32" stroke-width="4"/>
+</svg>

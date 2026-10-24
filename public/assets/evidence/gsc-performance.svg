@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="100%" height="100%" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif;">
+  <!-- Google Search Console Header -->
+  <rect width="1200" height="56" fill="#ffffff" border-bottom="1px solid #e0e0e0"/>
+  <line x1="0" y1="56" x2="1200" y2="56" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <rect x="20" y="16" width="24" height="2" fill="#5f6368"/>
+  <rect x="20" y="24" width="24" height="2" fill="#5f6368"/>
+  <rect x="20" y="32" width="24" height="2" fill="#5f6368"/>
+  
+  <text x="64" y="35" font-size="18" font-weight="500" fill="#202124">Google Search Console</text>
+  
+  <!-- Search input bar -->
+  <rect x="320" y="10" width="560" height="36" rx="18" fill="#f1f3f4"/>
+  <circle cx="342" cy="28" r="6" stroke="#5f6368" stroke-width="2" fill="none"/>
+  <line x1="346" y1="32" x2="352" y2="38" stroke="#5f6368" stroke-width="2"/>
+  <text x="365" y="33" font-size="13" fill="#5f6368">Inspect any URL in "werize.com"</text>
+  
+  <!-- Sub header -->
+  <text x="320" y="96" font-size="22" font-weight="400" fill="#202124">Performance on Search results</text>
+  <text x="1060" y="96" font-size="13" font-weight="500" fill="#1a73e8">EXPORT</text>
+  
+  <!-- Date filter pill bar -->
+  <rect x="320" y="116" width="340" height="32" rx="4" fill="#ffffff" stroke="#dadce0"/>
+  <text x="332" y="137" font-size="13" fill="#5f6368">24 hours   7 days   28 days   3 months   <tspan fill="#1a73e8" font-weight="500">Compare</tspan></text>
+  
+  <!-- Metric Card 1: Total Clicks -->
+  <rect x="320" y="168" width="160" height="110" rx="4" fill="#1a73e8"/>
+  <text x="336" y="196" font-size="13" fill="#ffffff">✓ Total clicks</text>
+  <text x="336" y="222" font-size="18" font-weight="500" fill="#ffffff">182K</text>
+  <text x="336" y="238" font-size="11" fill="#e8f0fe">7/1/25 - 12/31/25</text>
+  <text x="336" y="260" font-size="20" font-weight="600" fill="#ffffff">745K</text>
+  <text x="336" y="274" font-size="11" fill="#e8f0fe">1/1/26 - 6/30/26</text>
+  <line x1="440" y1="216" x2="465" y2="216" stroke="#ffffff" stroke-width="2"/>
+  <line x1="440" y1="254" x2="465" y2="254" stroke="#ffffff" stroke-dasharray="3,3" stroke-width="2"/>
+  
+  <!-- Metric Card 2: Total Impressions -->
+  <rect x="480" y="168" width="160" height="110" rx="4" fill="#7b1fa2"/>
+  <text x="496" y="196" font-size="13" fill="#ffffff">✓ Total impressions</text>
+  <text x="496" y="222" font-size="18" font-weight="500" fill="#ffffff">857K</text>
+  <text x="496" y="238" font-size="11" fill="#f3e5f5">7/1/25 - 12/31/25</text>
+  <text x="496" y="260" font-size="20" font-weight="600" fill="#ffffff">29.6M</text>
+  <text x="496" y="274" font-size="11" fill="#f3e5f5">1/1/26 - 6/30/26</text>
+  
+  <!-- Metric Card 3: Average CTR -->
+  <rect x="640" y="168" width="160" height="110" rx="4" fill="#ffffff" stroke="#dadce0"/>
+  <text x="656" y="196" font-size="13" fill="#5f6368">Average CTR</text>
+  <text x="656" y="222" font-size="18" font-weight="500" fill="#202124">21.2%</text>
+  <text x="656" y="238" font-size="11" fill="#5f6368">7/1/25 - 12/31/25</text>
+  <text x="656" y="260" font-size="20" font-weight="600" fill="#202124">2.5%</text>
+  <text x="656" y="274" font-size="11" fill="#5f6368">1/1/26 - 6/30/26</text>
+  
+  <!-- Metric Card 4: Average Position -->
+  <rect x="800" y="168" width="160" height="110" rx="4" fill="#ffffff" stroke="#dadce0"/>
+  <text x="816" y="196" font-size="13" fill="#5f6368">Average position</text>
+  <text x="816" y="222" font-size="18" font-weight="500" fill="#202124">10</text>
+  <text x="816" y="238" font-size="11" fill="#5f6368">7/1/25 - 12/31/25</text>
+  <text x="816" y="260" font-size="20" font-weight="600" fill="#137333">5.8</text>
+  <text x="816" y="274" font-size="11" fill="#137333">1/1/26 - 6/30/26 (Rank Improved)</text>
+  
+  <!-- Time series graph representation -->
+  <rect x="320" y="300" width="800" height="300" fill="#ffffff"/>
+  <line x1="360" y1="320" x2="360" y2="580" stroke="#dadce0" stroke-width="1"/>
+  <line x1="360" y1="580" x2="1120" y2="580" stroke="#dadce0" stroke-width="1"/>
+  
+  <text x="325" y="325" font-size="11" fill="#5f6368">9K</text>
+  <text x="325" y="410" font-size="11" fill="#5f6368">6K</text>
+  <text x="325" y="495" font-size="11" fill="#5f6368">3K</text>
+  <text x="325" y="580" font-size="11" fill="#5f6368">0</text>
+  
+  <text x="1130" y="325" font-size="11" fill="#7b1fa2">375K</text>
+  <text x="1130" y="410" font-size="11" fill="#7b1fa2">250K</text>
+  <text x="1130" y="495" font-size="11" fill="#7b1fa2">125K</text>
+  <text x="1130" y="580" font-size="11" fill="#7b1fa2">0</text>
+
+  <!-- Baseline curve (flat in 2025) -->
+  <path d="M 360 560 Q 450 562 550 555 Q 650 558 750 550 Q 850 555 950 550 L 1120 545" fill="none" stroke="#1a73e8" stroke-width="1.5" opacity="0.6"/>
+  <!-- H1 2026 Surge curve -->
+  <path d="M 360 560 Q 420 550 460 520 Q 520 340 580 330 Q 640 370 700 350 Q 760 410 820 440 Q 880 430 940 480 Q 1000 500 1060 490 L 1120 510" fill="none" stroke="#1a73e8" stroke-width="2.5" stroke-dasharray="4,2"/>
+  <!-- Impressions surge curve -->
+  <path d="M 360 570 Q 420 560 460 500 Q 520 325 580 320 Q 640 360 700 340 Q 760 390 820 420 Q 880 410 940 460 Q 1000 480 1060 475 L 1120 495" fill="none" stroke="#7b1fa2" stroke-width="2.5" stroke-dasharray="3,3"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%" style="background:#0c0a0b;">
+  <defs>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stop-color="#141113" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#050405" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2527"/>
+      <stop offset="100%" stop-color="#0a0809"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#vignette)"/>
+  
+  <!-- Subtle lighting rim -->
+  <path d="M 280 200 C 350 140, 520 160, 560 280 C 600 400, 580 550, 540 680 L 260 680 Z" fill="#1f1a1c" opacity="0.6"/>
+  
+  <!-- Silhouette & Portrait representation of Nagarjun Valeru -->
+  <!-- White shirt shoulder -->
+  <path d="M 200 800 L 240 660 C 270 640, 360 640, 420 670 L 490 800 Z" fill="#f4efeb"/>
+  <path d="M 260 660 L 320 720 L 380 660 Z" fill="#e8e1de"/>
+  <line x1="320" y1="720" x2="320" y2="800" stroke="#c5bcba" stroke-width="2"/>
+  
+  <!-- Head & Hair profile (wavy, voluminous hair) -->
+  <path d="M 330 240 C 320 160, 420 130, 490 150 C 560 170, 590 240, 580 320 C 570 380, 550 440, 520 480 C 510 430, 480 390, 450 380 Z" fill="url(#hairGrad)"/>
+  
+  <!-- Face profile (thoughtful side pose) -->
+  <path d="M 390 280 C 370 285, 360 300, 355 330 C 350 360, 350 380, 330 400 C 320 410, 310 420, 325 435 C 340 450, 365 440, 370 455 C 375 470, 360 480, 370 495 C 380 510, 410 515, 430 510 C 450 490, 480 460, 490 410 Z" fill="#d9d0cb"/>
+  
+  <!-- Glasses -->
+  <rect x="330" y="325" width="48" height="34" rx="6" fill="none" stroke="#f0ebe6" stroke-width="3"/>
+  <line x1="378" y1="338" x2="440" y2="330" stroke="#f0ebe6" stroke-width="2.5"/>
+  <circle cx="355" cy="342" r="6" fill="#2d2226"/>
+  
+  <!-- Beard & Mustache -->
+  <path d="M 335 425 C 345 425, 360 435, 370 440 C 365 460, 375 480, 385 500 C 420 515, 440 480, 450 450 C 410 450, 380 430, 350 430 Z" fill="#221b1e"/>
+  
+  <!-- Hand under chin holding pen -->
+  <!-- Arm & Wrist with Watch -->
+  <rect x="210" y="610" width="80" height="40" rx="6" fill="#1a1416"/>
+  <rect x="235" y="605" width="30" height="50" rx="4" fill="#dcd4d0" stroke="#1a1416" stroke-width="2"/>
+  <!-- Hand fingers under chin -->
+  <path d="M 280 580 C 300 520, 330 500, 360 520 C 370 540, 360 560, 340 580 Z" fill="#dcd4d0"/>
+  <!-- Pen held in hand -->
+  <line x1="345" y1="490" x2="335" y2="600" stroke="#f0ebe6" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="345" cy="490" r="3" fill="#641E32"/>
+  
+  <!-- Editorial text watermark at bottom -->
+  <text x="40" y="750" font-family="'Fraunces', Georgia, serif" font-size="20" fill="#f4efeb" opacity="0.9">Nagarjun Valeru</text>
+  <text x="40" y="772" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#b98c91" letter-spacing="1.5">SEO &amp; AEO STRATEGIST · RESEARCH SNAPSHOT</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" width="100%" height="100%" style="background:#ffffff; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,sans-serif;">
+    <!-- Top Google Bar -->
+    <rect width="1100" height="60" fill="#ffffff"/>
+    <text x="50" y="40" font-size="24" font-weight="700" fill="#4285F4">G<tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan></text>
+    
+    <!-- Search Query Bar -->
+    <rect x="180" y="14" width="620" height="42" rx="21" fill="#ffffff" stroke="#dfe1e5" stroke-width="1.5"/>
+    <text x="210" y="41" font-size="15" fill="#202124">Sell personal loans</text>
+    <text x="760" y="40" font-size="16" fill="#70757a">✕  🔍</text>
+    
+    <!-- Divider -->
+    <line x1="0" y1="70" x2="1100" y2="70" stroke="#ebebeb" stroke-width="1"/>
+    
+    <!-- Search modes tab -->
+    <text x="50" y="92" font-size="13" font-weight="500" fill="#1a73e8">All</text>
+    <line x1="48" y1="102" x2="68" y2="102" stroke="#1a73e8" stroke-width="2"/>
+    <text x="90" y="92" font-size="13" fill="#70757a">Images    Short videos    News    Forums    Videos    More</text>
+
+    <!-- AI Overview Section -->
+    <g transform="translate(50, 120)">
+      <!-- Star icon & AI Overview Title -->
+      <path d="M 12 0 L 14 8 L 22 10 L 14 12 L 12 20 L 10 12 L 2 10 L 10 8 Z" fill="#1a73e8"/>
+      <text x="28" y="16" font-size="16" font-weight="500" fill="#1f1f1f">AI Overview</text>
+      
+      <!-- Content Box Split: Left text, Right cards -->
+      <rect x="0" y="32" width="640" height="380" fill="#ffffff"/>
+      
+      <!-- Synthesized Text Content -->
+      <foreignObject x="0" y="32" width="620" height="360">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:14px; line-height:1.6; color:#1f1f1f;">
+          <p>You can sell personal loans and earn commissions by becoming a Direct Selling Agent (DSA) or financial partner through digital platforms.</p><h4 style="margin:12px 0 6px; font-size:14px; font-weight:600;">How Selling Personal Loans Works</h4><p>• <b>Role:</b> You connect individuals needing funds for medical use, weddings, debt consolidation with lenders.<br/>• <b>Commissions:</b> You earn a percentage-based commission (typically between 1.0% and 2.5% of the disbursed loan amount). For example, a 1% commission on a ₹5,00,000 personal loan yields ₹5,000. <span style="background:#fce8e6; border:1px solid #641E32; padding:2px 8px; border-radius:10px; font-size:11px; color:#641E32; font-weight:700;">WeRize +1</span></p>
+        </div>
+      </foreignObject>
+      
+      <!-- Right Side Citation Cards Panel -->
+      <g transform="translate(660, 20)">
+        <rect x="0" y="0" width="340" height="220" rx="16" fill="#f8f9fa" stroke="#e0e2e5"/>
+        
+        <!-- Card 1 (WeRize) -->
+        <g transform="translate(16, 16)">
+          <rect x="0" y="0" width="308" height="100" rx="12" fill="#ffffff" stroke="#dadce0"/>
+          <!-- Favicon & Brand -->
+          <circle cx="16" cy="18" r="8" fill="#e8eaed"/>
+          <text x="12" y="21" font-size="9" font-weight="700" fill="#641E32">W</text>
+          <text x="30" y="21" font-size="12" font-weight="500" fill="#202124">WeRize</text>
+          
+          <text x="12" y="46" font-size="13" font-weight="600" fill="#1a0dab">Personal Loan DSA Partner Program </text>
+          <text x="12" y="64" font-size="13" font-weight="600" fill="#1a0dab">& Commission Calculator</text>
+          <text x="12" y="85" font-size="11" fill="#70757a">werize.com · Verified 2026 Guide</text>
+          
+          <!-- Thumbnail placeholder -->
+          <rect x="235" y="15" width="60" height="60" rx="8" fill="#e8f0fe"/>
+          <text x="242" y="48" font-size="10" fill="#1a73e8">WeRize</text>
+        </g>
+        
+        
+      </g>
+    </g>
+  </svg>
